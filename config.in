@@ -1,3 +1,12 @@
 #Description: OpenSDE-Desktop Common Base
 
 menu_begin MENU_LINUX_BASE 'LSB Base Options'
+
+# modules from linux-base to force
+for x in LSB_GRAPHICS=1 LSB_GRAPHICS_EXTRA=1 \
+	LSB_PRINTING=1 LSB_PERL=1 LSB_PYTHON=1 \
+	OPENSDE_NETWORK=1 OPENSDE_GRAPHICS_FONTS=1 \
+	; do
+
+	export SDECFGSET_TRG_LSB_$x
+done
