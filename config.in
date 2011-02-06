@@ -1,1 +1,3 @@
 #Description: OpenSDE-Desktop Common Base
+
+menu_begin MENU_LINUX_BASE 'LSB Base Options'
