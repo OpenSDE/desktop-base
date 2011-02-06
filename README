@@ -1,0 +1,6 @@
+OpenSDE's desktop-base
+
+OpenSDE's desktop-base aims to be a common base for all opensde-desktop
+targets, aiming to be LSB [1] compliant.
+
+[1] http://www.linux-foundation.org/en/LSB
